@@ -1,0 +1,89 @@
+#MainWindow{
+    background-color: #fff;
+}
+
+#menuBTN{
+    padding: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+#header_widget{
+    background-color: #f9fafd;
+}
+
+#icon_only_widget {
+    background-color: #313a46;
+    width:50px;
+}
+
+#icon_only_widget QPushButton, QLabel {
+    height:50px;
+    border:none;
+}
+
+#icon_only_widget QPushButton:hover {
+    background-color: rgba( 86, 101, 115, 0.5);
+}
+
+#clinic_logo_1 {
+    padding: 5px
+}
+
+#full_menu_widget {
+    background-color: #313a46;
+}
+
+#full_menu_widget QPushButton {
+    border:none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #788596;
+}
+
+#full_menu_widget QPushButton:hover {
+    background-color: rgba( 86, 101, 115, 0.5);
+}
+
+#full_menu_widget QPushButton:checked {
+    background-color: rgba( 86, 101, 115, 0.5);
+}
+
+
+/* style for APP title */
+#clinic_logo_2 {
+    padding-right: 10px;
+    color: #fff;
+}
+/*= END
+==================================================== */
+
+/*= Style for search button START
+==================================================== */
+#searchBTN {
+    border: none;
+}
+/*= END
+==================================================== */
+
+/*= Style for search input START
+==================================================== */
+#search_bar {
+    border: none;
+    padding: 5px 10px;
+}
+
+#search_bar:focus {
+    background-color: #70B9FE;
+}
+/*= END
+==================================================== */
+
+/*= Style for user information button START
+==================================================== */
+#add_userBTN {
+    border: none;
+}
+
